@@ -9,4 +9,4 @@ class Contact(models.Model):
     date=models.DateField()
     
     def _str_(self):
-        return self.namefr
+        return self.name
